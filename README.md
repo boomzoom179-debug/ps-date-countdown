@@ -33,44 +33,15 @@ The date can be in the future if you want to countdown to the date itself, and t
 Each sensor **requires**:
 
 ```
-name: NAME_OF_DATE
-type: TYPE_OF_DATE
-date: DD/MM/YYYY_OF DATE
+name: မြန်မြန်လေး စဉ်းစားပေးပါလားနော် 
+type: အရပ်ပုပုကောင်မလေး
+date: 16/5/2026
 ```
 
 You can also customize the sensor icon and friendly names :
 
 ```
 icon: "mdi:ICON_OF_DATE"
-friendly_name: FRIENDLY_NAME_OF_DATE
-append_year: True
-```
-
-And you can reverse the sensor so it counts up from a date:
-
-```
-reverse: True
-```
-
-examples:
-
-```
-name: John
-type: birthday
-date: 17/08/1971
-```
-
-or
-
-```
-name: Our wedding
-type: anniversary
-date: 14/02/1994
-icon: "mdi:ring"
-append_year: True
-```
-
-or
 
 ```
 name: Quit Smoking
